@@ -1,0 +1,42 @@
+a.fab {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    height: 6rem;
+    background-color: var(--color-discord);
+    box-shadow: rgb(0 0 0 / 24%) 0px 8px 16px -2px;
+    border-radius: 3rem;
+    transition-property: background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+}
+
+.fab:hover {
+    background-color: hsl(235,86.1%,71.8%);
+}
+
+.fab-label {
+    color: #fff;
+    font-family: 'Poppins',  sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.fab > svg {
+    height: 2.5rem;
+}
+
+@media (max-width: 700px) {
+    a.fab {
+        padding: 0;
+        width: 6rem;
+    }
+
+    .fab-label {
+        display: none;
+    }
+}

@@ -84,6 +84,11 @@
             "xl": {
                 "width": 2000
             }
+        },
+        "custom": {
+            "discord": {
+                "type": "text"
+            }
         }
     }
 }
